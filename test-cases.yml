@@ -91,7 +91,7 @@
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
   steps:
-    - Вписываю название товара в поиск "Apple"
+    - Вписываю название товара в поиск "Samsung"
   expected-result: |
     Интерфейс должен показывать данные товары в основном окне
 ---
