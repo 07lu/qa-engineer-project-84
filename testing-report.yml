@@ -19,7 +19,7 @@ test-cases:
 - summary: |
     Проверка работы категории "Смартфоны" в фильтре бренд "Apple"
   status: pass
----  
+---
 - summary: |
     Проверка работы окна "Поиск" 
   status: pass
