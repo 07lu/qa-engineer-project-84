@@ -30,7 +30,7 @@
 - summary: |
     Проверка кнопки "Далее"
   status: pass
----
+
 - summary: |
     Проверка кнопки "Назад"
   status: pass
@@ -50,7 +50,7 @@
 - summary: |
     Проверка кнопки "Продолжить покупки"
   status: pass
----
+
 - summary: |
     Проверка подвала сайта
   status: pass
