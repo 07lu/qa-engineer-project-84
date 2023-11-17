@@ -3,7 +3,7 @@
     Проверка нажатии кнопки "Корзина" в шапке сайта
   requirement: |
     При нажатии на кнопку "Корзина" пользователя должно перенаправить на страницу с открытой корзиной товаров
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -16,7 +16,7 @@
     Проверка нажатии кнопки "Магазин" в шапке сайта из вкладки "Корзина"
   requirement: |
     При нажатии на кнопку "Магазин" из вкладки "Корзина" пользователя должно перенаправить на главную страницу сайта
-  prerequisites:
+  prerequisites: |
     Открыта страница корзины
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/cart
@@ -29,7 +29,7 @@
     Проверка замены языка на сайте с английского на русский
   requirement: |
     При нажатии на кнопку "Язык" при выборе варианта "Русский" интерфейс должен менять язык на русский
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -43,7 +43,7 @@
     Проверка замены языка на сайте с русского на английский
   requirement: |
     При нажатии на кнопку "Язык" при выборе варианта "Английский" интерфейс должен менять язык на английский
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -57,7 +57,7 @@
     Проверка работы категории "Смартфоны" в фильтре брендов
   requirement: |
     При выборе категорий товаров фильтр должен показывать данные товары в основном окне
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -71,7 +71,7 @@
     Проверка работы категории "Смартфоны" в фильтре бренд "Apple"
   requirement: |
     При выборе бренда "Apple" в категорий товаров "Смартфоны" фильтр должен показывать данные товары в основном окне
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -86,7 +86,7 @@
     Проверка работы окна "Поиск" 
   requirement: |
     При вводе названия товара в окно "Поиск" фильтр должен показывать данные товары в основном окне
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -99,7 +99,7 @@
     Проверка флажка "в наличии"
   requirement: |
     При нажатии на флажок "в наличии" должны отображаться товары в наличии
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -112,7 +112,7 @@
     Проверка фильтра цены
   requirement: |
     При вводе данных цены должны отображдаться товары, соответсвующие данным ценам
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -125,7 +125,7 @@
     Проверка кнопки "Далее"
   requirement: |
     При нажати на кнопку "Далее" должен загружаться список товаров, которые следуют за предыдущими товарами
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -138,7 +138,7 @@
     Проверка кнопки "Назад"
   requirement: |
     При нажати на кнопку "Назад" должен загружаться список товаров, которые следовали за предыдущими товарами
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -151,7 +151,7 @@
     Добавление товара в корзину
   requirement: |
     При нажати кнопки на товаре "Добавить в корзину" товар добавляется во вкладку корзина
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
@@ -164,7 +164,7 @@
     Проверка заказа
   requirement: |
     При нажати кнопки на товаре "Проверить" должно появиться окно с заказом: наименование, количество, цена, валюта.
-  prerequisites:
+  prerequisites: |
     Открыта страница "Корзина"
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/cart
@@ -177,7 +177,7 @@
     Проверка кнопки "Отчистить корзину"
   requirement: |
     При нажати кнопки "Отчистить корзину" должен удаляться весь товар из корзины
-  prerequisites:
+  prerequisites: |
     Открыта страница "Корзина"
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/cart
@@ -190,7 +190,7 @@
     Проверка кнопки "Продолжить покупки"
   requirement: |
     При нажати кнопки "Продолжить покупки" должно открываться главное окно сайта
-  prerequisites:
+  prerequisites: |
     Открыта страница "Корзина"
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/cart
@@ -203,7 +203,7 @@
     Проверка подвала сайта
   requirement: |
     При нажатии на кнопку "Создано Hexlet" пользователя должно перенаправить на сайт разработчика 
-  prerequisites:
+  prerequisites: |
     Открыта главная страница сайта
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
