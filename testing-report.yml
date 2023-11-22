@@ -41,7 +41,7 @@
 
 - summary: |
    Проверка созданного заказа
-  status: pass
+  status: fail
 
 - summary: |
     Проверка очистки корзины
