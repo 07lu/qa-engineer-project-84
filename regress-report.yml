@@ -9,7 +9,7 @@ test-cases:
   status: pass
 
 - summary: |
-    Не происходит оформление заказа
+    Ошибка 500 при оформлении заказа
   status: fail
 
 - summary: |
